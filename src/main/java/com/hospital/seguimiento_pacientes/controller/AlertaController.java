@@ -12,8 +12,10 @@ public class AlertaController {
     @Autowired
     private AlertaService alertaService;
 
-    @PostMapping
-    public Alerta generarAlerta(@RequestBody Alerta alerta) {
-        return alertaService.generarAlerta(alerta);
+    // Endpoint para generar alertas para un paciente
+    @PostMapping("/generar/{pacienteId}")
+    public String generarAlerta(@PathVariable Long pacienteId) {
+        alertaService.generarAlertasParaPaciente(pacienteId);
+        return "Alerta generada y mensaje enviado.";
     }
 }

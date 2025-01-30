@@ -31,26 +31,26 @@ public class AlertaService {
     @Value("${doctor.phone}")
     private String doctorPhoneNumber;
 
-    // Verificar y generar alertas para un paciente
-    public void generarAlertasParaPaciente(Long pacienteId) {
+    // Verificar y generar alertas para un paciente con un mensaje personalizado
+    public void generarAlertasParaPaciente(Long pacienteId, String mensajePersonalizado) {
         Paciente paciente = pacienteRepository.findById(pacienteId).orElseThrow(() -> new RuntimeException("Paciente no encontrado"));
 
         // Verificar si no hay visitas médicas recientes
         List<VisitaMedica> visitas = visitaMedicaRepository.findByPacienteId(pacienteId);
         if (visitas.isEmpty() || visitas.stream().noneMatch(visita -> visita.getFecha().after(new Date()))) {
-            // Generar alerta por visita pendiente
+            // Generar alerta con el mensaje personalizado
             Alerta alerta = new Alerta(
                     "Visita Pendiente",
-                    "El paciente " + paciente.getNombre() + " con diagnóstico " + paciente.getDiagnostico() +
-                            " no ha tenido una visita médica en más de 15 días. Debe asistir a una consulta.",
+                    mensajePersonalizado.replace("{nombre}", paciente.getNombre())
+                            .replace("{diagnostico}", paciente.getDiagnostico()),
                     paciente
             );
             alertaRepository.save(alerta);
 
-            // Enviar el mensaje al teléfono del doctor
+            // Enviar el mensaje al teléfono del doctor con el mensaje personalizado
             smsService.enviarMensaje(doctorPhoneNumber,
-                    "Paciente " + paciente.getNombre() + " con diagnóstico " + paciente.getDiagnostico() +
-                            " debe asistir a una visita médica. Última consulta hace más de 15 días.");
+                    mensajePersonalizado.replace("{nombre}", paciente.getNombre())
+                            .replace("{diagnostico}", paciente.getDiagnostico()));
         }
     }
 }

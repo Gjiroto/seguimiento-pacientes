@@ -1,22 +1,22 @@
-2025-01-21T15:24:52.610-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1616634 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
-2025-01-21T15:24:52.626-05:00 DEBUG 1616634 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
-2025-01-21T15:24:52.627-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-01-21T15:24:53.298-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-21T15:24:53.352-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
-2025-01-21T15:24:53.892-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
-2025-01-21T15:24:53.906-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-21T15:24:53.906-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-21T15:24:53.957-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-21T15:24:53.958-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1271 ms
-2025-01-21T15:24:54.120-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-21T15:24:54.178-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-21T15:24:54.211-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-21T15:24:54.431-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-21T15:24:54.454-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-21T15:24:54.601-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-01-21T15:24:54.603-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-21T15:24:54.623-05:00  WARN 1616634 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-21T15:24:54.644-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-30T08:40:33.382-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1033387 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T08:40:33.398-05:00 DEBUG 1033387 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T08:40:33.402-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T08:40:34.455-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T08:40:34.524-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2025-01-30T08:40:35.250-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T08:40:35.270-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T08:40:35.270-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T08:40:35.333-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T08:40:35.333-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1822 ms
+2025-01-30T08:40:35.585-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T08:40:35.639-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T08:40:35.675-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T08:40:36.108-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T08:40:36.141-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T08:40:36.361-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T08:40:36.364-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T08:40:36.391-05:00  WARN 1033387 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T08:40:36.414-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -24,82 +24,40 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-21T15:24:55.341-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-21T15:24:55.391-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:24:55.768-05:00  WARN 1616634 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-21T15:24:55.893-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2025-01-21T15:24:56.193-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-01-21T15:24:56.277-05:00  WARN 1616634 --- [seguimiento-pacientes] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-01-21T15:24:56.279-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:24:56.280-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-01-21T15:24:56.282-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-01-21T15:24:56.293-05:00  INFO 1616634 --- [seguimiento-pacientes] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-01-21T15:24:56.306-05:00 ERROR 1616634 --- [seguimiento-pacientes] [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:326) ~[spring-context-6.2.1.jar:6.2.1]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:510) ~[spring-context-6.2.1.jar:6.2.1]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:295) ~[spring-context-6.2.1.jar:6.2.1]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:240) ~[spring-context-6.2.1.jar:6.2.1]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006) ~[spring-context-6.2.1.jar:6.2.1]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630) ~[spring-context-6.2.1.jar:6.2.1]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
-	at com.hospital.seguimiento_pacientes.SeguimientoPacientesApplication.main(SeguimientoPacientesApplication.java:10) ~[classes/:na]
-Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:251) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:323) ~[spring-context-6.2.1.jar:6.2.1]
-	... 13 common frames omitted
-Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
-	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:222) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:310) ~[spring-boot-3.4.1.jar:3.4.1]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:236) ~[spring-boot-3.4.1.jar:3.4.1]
-	... 15 common frames omitted
-Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
-	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1061) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:219) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	... 17 common frames omitted
-Caused by: java.net.BindException: La dirección ya se está usando
-	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.bind(Net.java:565) ~[na:na]
-	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344) ~[na:na]
-	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301) ~[na:na]
-	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1390) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1058) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	... 19 common frames omitted
-
-2025-01-21T15:26:52.070-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1617673 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
-2025-01-21T15:26:52.072-05:00 DEBUG 1617673 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
-2025-01-21T15:26:52.074-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-01-21T15:26:52.746-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-21T15:26:52.800-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
-2025-01-21T15:26:53.386-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
-2025-01-21T15:26:53.404-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-21T15:26:53.405-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-21T15:26:53.460-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-21T15:26:53.461-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1336 ms
-2025-01-21T15:26:53.649-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-21T15:26:53.692-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-21T15:26:53.719-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-21T15:26:53.962-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-21T15:26:53.986-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-21T15:26:54.137-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-01-21T15:26:54.139-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-21T15:26:54.158-05:00  WARN 1617673 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-21T15:26:54.190-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-30T08:40:37.362-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T08:40:37.420-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T08:40:37.953-05:00  WARN 1033387 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T08:40:38.138-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T08:40:38.657-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T08:40:38.786-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T08:40:38.799-05:00  INFO 1033387 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 6.283 seconds (process running for 6.905)
+2025-01-30T08:41:16.472-05:00  INFO 1033387 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T08:41:16.472-05:00  INFO 1033387 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T08:41:16.473-05:00  INFO 1033387 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-30T09:00:08.513-05:00  INFO 1033387 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-30T09:00:08.515-05:00  INFO 1033387 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-30T09:00:08.518-05:00  INFO 1033387 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:00:08.519-05:00  INFO 1033387 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T09:00:08.522-05:00  INFO 1033387 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-30T09:00:11.054-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1047637 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T09:00:11.056-05:00 DEBUG 1047637 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T09:00:11.058-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T09:00:11.751-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T09:00:11.804-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2025-01-30T09:00:12.417-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T09:00:12.434-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T09:00:12.434-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T09:00:12.476-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T09:00:12.476-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1356 ms
+2025-01-30T09:00:12.631-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T09:00:12.677-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T09:00:12.703-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T09:00:12.924-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T09:00:12.946-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T09:00:13.083-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T09:00:13.085-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T09:00:13.104-05:00  WARN 1047637 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T09:00:13.120-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -107,25 +65,481 @@ Caused by: java.net.BindException: La dirección ya se está usando
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-21T15:26:54.901-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-21T15:26:54.952-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:26:55.290-05:00  WARN 1617673 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-21T15:26:55.418-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2025-01-21T15:26:55.747-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-01-21T15:26:55.831-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
-2025-01-21T15:26:55.843-05:00  INFO 1617673 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 4.289 seconds (process running for 4.654)
-2025-01-21T15:27:54.320-05:00  INFO 1617673 --- [seguimiento-pacientes] [http-nio-8087-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-21T15:27:54.320-05:00  INFO 1617673 --- [seguimiento-pacientes] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-21T15:27:54.321-05:00  INFO 1617673 --- [seguimiento-pacientes] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-01-21T15:30:01.897-05:00 ERROR 1617673 --- [seguimiento-pacientes] [http-nio-8087-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.twilio.exception.ApiException: 'To' and 'From' number cannot be the same: +57301651XXXX] with root cause
+2025-01-30T09:00:13.752-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T09:00:13.799-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:00:14.206-05:00  WARN 1047637 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T09:00:14.337-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T09:00:14.680-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T09:00:14.781-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T09:00:14.793-05:00  INFO 1047637 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 4.27 seconds (process running for 4.652)
+2025-01-30T09:00:29.756-05:00  INFO 1047637 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-30T09:00:29.759-05:00  INFO 1047637 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-30T09:00:29.762-05:00  INFO 1047637 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:00:29.763-05:00  INFO 1047637 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T09:00:29.765-05:00  INFO 1047637 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-30T09:00:36.299-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1047996 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T09:00:36.300-05:00 DEBUG 1047996 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T09:00:36.301-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T09:00:37.056-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T09:00:37.115-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2025-01-30T09:00:37.713-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T09:00:37.727-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T09:00:37.727-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T09:00:37.768-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T09:00:37.769-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1416 ms
+2025-01-30T09:00:37.935-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T09:00:37.985-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T09:00:38.011-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T09:00:38.239-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T09:00:38.262-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T09:00:38.408-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T09:00:38.410-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T09:00:38.431-05:00  WARN 1047996 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T09:00:38.451-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-30T09:00:39.115-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T09:00:39.165-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:00:39.587-05:00  WARN 1047996 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T09:00:39.705-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T09:00:40.066-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T09:00:40.158-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T09:00:40.170-05:00  INFO 1047996 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 4.424 seconds (process running for 4.79)
+2025-01-30T09:01:01.495-05:00  INFO 1047996 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T09:01:01.495-05:00  INFO 1047996 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T09:01:01.496-05:00  INFO 1047996 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-30T09:01:47.301-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
 
-com.twilio.exception.ApiException: 'To' and 'From' number cannot be the same: +57301651XXXX
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:01:52.122-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:01:53.115-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:01:57.121-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:01:58.203-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:01:59.144-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:00.166-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:01.126-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:02.135-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:03.124-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:05.146-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:06.129-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:07.136-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:08.142-05:00 ERROR 1047996 --- [seguimiento-pacientes] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaAutoService.generarAlertasAutomatizadas(AlertaAutoService.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:02:08.627-05:00  INFO 1047996 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-30T09:02:08.629-05:00  INFO 1047996 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-30T09:02:08.632-05:00  INFO 1047996 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:02:08.634-05:00  INFO 1047996 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T09:02:08.641-05:00  INFO 1047996 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-30T09:04:10.637-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1050604 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T09:04:10.639-05:00 DEBUG 1050604 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T09:04:10.641-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T09:04:11.355-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T09:04:11.420-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2025-01-30T09:04:12.147-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T09:04:12.165-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T09:04:12.166-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T09:04:12.220-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T09:04:12.221-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1526 ms
+2025-01-30T09:04:12.431-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T09:04:12.484-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T09:04:12.519-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T09:04:12.816-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T09:04:12.845-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T09:04:13.041-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T09:04:13.044-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T09:04:13.069-05:00  WARN 1050604 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T09:04:13.090-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-30T09:04:14.000-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T09:04:14.079-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:04:14.549-05:00  WARN 1050604 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T09:04:14.717-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T09:04:15.188-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T09:04:15.320-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T09:04:15.336-05:00  INFO 1050604 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 5.231 seconds (process running for 5.598)
+2025-01-30T09:04:31.411-05:00  INFO 1050604 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T09:04:31.412-05:00  INFO 1050604 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T09:04:31.413-05:00  INFO 1050604 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-30T09:07:16.202-05:00  INFO 1050604 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-30T09:07:16.205-05:00  INFO 1050604 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-30T09:07:16.209-05:00  INFO 1050604 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:07:16.212-05:00  INFO 1050604 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T09:07:16.214-05:00  INFO 1050604 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-30T09:07:18.863-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1052879 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T09:07:18.865-05:00 DEBUG 1052879 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T09:07:18.866-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T09:07:19.531-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T09:07:19.586-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2025-01-30T09:07:20.115-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T09:07:20.129-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T09:07:20.129-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T09:07:20.177-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T09:07:20.178-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1257 ms
+2025-01-30T09:07:20.331-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T09:07:20.370-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T09:07:20.395-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T09:07:20.666-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T09:07:20.689-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T09:07:20.838-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T09:07:20.840-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T09:07:20.860-05:00  WARN 1052879 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T09:07:20.879-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-30T09:07:21.515-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T09:07:21.560-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:07:21.935-05:00  WARN 1052879 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T09:07:22.061-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T09:07:22.388-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T09:07:22.483-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T09:07:22.496-05:00  INFO 1052879 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 4.199 seconds (process running for 4.548)
+2025-01-30T09:07:29.901-05:00  INFO 1052879 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T09:07:29.902-05:00  INFO 1052879 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T09:07:29.904-05:00  INFO 1052879 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-01-30T09:10:13.987-05:00 ERROR 1052879 --- [seguimiento-pacientes] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit] with root cause
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
 	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
 	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
 	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
 	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
 	at com.hospital.seguimiento_pacientes.service.AlertaService.generarAlertasParaPaciente(AlertaService.java:51) ~[classes/:na]
-	at com.hospital.seguimiento_pacientes.controller.AlertaController.generarAlerta(AlertaController.java:18) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.controller.AlertaController.generarAlerta(AlertaController.java:19) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
@@ -219,56 +633,15 @@ com.twilio.exception.ApiException: 'To' and 'From' number cannot be the same: +5
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-01-21T15:31:44.289-05:00  INFO 1617673 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-21T15:31:44.291-05:00  INFO 1617673 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-01-21T15:31:44.294-05:00  INFO 1617673 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:31:44.296-05:00  INFO 1617673 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-01-21T15:31:44.298-05:00  INFO 1617673 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-01-21T15:31:47.172-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1619462 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
-2025-01-21T15:31:47.175-05:00 DEBUG 1619462 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
-2025-01-21T15:31:47.177-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-01-21T15:31:48.126-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-21T15:31:48.211-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
-2025-01-21T15:31:49.045-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
-2025-01-21T15:31:49.069-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-21T15:31:49.069-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-21T15:31:49.142-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-21T15:31:49.142-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1888 ms
-2025-01-21T15:31:49.425-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-21T15:31:49.480-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-21T15:31:49.515-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-21T15:31:49.825-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-21T15:31:49.855-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-21T15:31:50.049-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-01-21T15:31:50.052-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-21T15:31:50.078-05:00  WARN 1619462 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-21T15:31:50.100-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-21T15:31:50.960-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-21T15:31:51.017-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:31:51.473-05:00  WARN 1619462 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-21T15:31:51.654-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2025-01-21T15:31:52.138-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-01-21T15:31:52.257-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
-2025-01-21T15:31:52.269-05:00  INFO 1619462 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 5.84 seconds (process running for 6.258)
-2025-01-21T15:32:01.346-05:00  INFO 1619462 --- [seguimiento-pacientes] [http-nio-8087-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-21T15:32:01.346-05:00  INFO 1619462 --- [seguimiento-pacientes] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-21T15:32:01.347-05:00  INFO 1619462 --- [seguimiento-pacientes] [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-01-21T15:32:13.995-05:00 ERROR 1619462 --- [seguimiento-pacientes] [http-nio-8087-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.twilio.exception.ApiException: Mismatch between the 'From' number +18777804236 and the account AC40289b8c655027b9eb8957f47ae902dd] with root cause
+2025-01-30T09:11:15.794-05:00 ERROR 1052879 --- [seguimiento-pacientes] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit] with root cause
 
-com.twilio.exception.ApiException: Mismatch between the 'From' number +18777804236 and the account AC40289b8c655027b9eb8957f47ae902dd
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
 	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
 	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
 	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
 	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
 	at com.hospital.seguimiento_pacientes.service.AlertaService.generarAlertasParaPaciente(AlertaService.java:51) ~[classes/:na]
-	at com.hospital.seguimiento_pacientes.controller.AlertaController.generarAlerta(AlertaController.java:18) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.controller.AlertaController.generarAlerta(AlertaController.java:19) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
@@ -362,30 +735,234 @@ com.twilio.exception.ApiException: Mismatch between the 'From' number +187778042
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-01-21T15:35:06.392-05:00  INFO 1619462 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-21T15:35:06.395-05:00  INFO 1619462 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-01-21T15:35:06.400-05:00  INFO 1619462 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:35:06.403-05:00  INFO 1619462 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-01-21T15:35:06.406-05:00  INFO 1619462 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-01-21T15:35:08.117-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1620678 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
-2025-01-21T15:35:08.119-05:00 DEBUG 1620678 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
-2025-01-21T15:35:08.120-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-01-21T15:35:08.804-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-21T15:35:08.858-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
-2025-01-21T15:35:09.382-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
-2025-01-21T15:35:09.397-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-21T15:35:09.398-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-21T15:35:09.443-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-21T15:35:09.443-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1264 ms
-2025-01-21T15:35:09.634-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-21T15:35:09.680-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-21T15:35:09.712-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-21T15:35:10.051-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-21T15:35:10.093-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-21T15:35:10.322-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-01-21T15:35:10.325-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-21T15:35:10.351-05:00  WARN 1620678 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-21T15:35:10.376-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-30T09:15:49.886-05:00 ERROR 1052879 --- [seguimiento-pacientes] [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit] with root cause
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaService.generarAlertasParaPaciente(AlertaService.java:51) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.controller.AlertaController.generarAlerta(AlertaController.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:15:56.690-05:00 ERROR 1052879 --- [seguimiento-pacientes] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit] with root cause
+
+com.twilio.exception.ApiException: Account AC40289b8c655027b9eb8957f47ae902dd exceeded the null daily messages limit
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:338) ~[twilio-10.6.7.jar:na]
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:36) ~[twilio-10.6.7.jar:na]
+	at com.twilio.base.Creator.create(Creator.java:40) ~[twilio-10.6.7.jar:na]
+	at com.hospital.seguimiento_pacientes.service.SmsService.enviarMensaje(SmsService.java:30) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.service.AlertaService.generarAlertasParaPaciente(AlertaService.java:51) ~[classes/:na]
+	at com.hospital.seguimiento_pacientes.controller.AlertaController.generarAlerta(AlertaController.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.2.jar:6.4.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-01-30T09:22:04.126-05:00  INFO 1052879 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-30T09:22:04.127-05:00  INFO 1052879 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-30T09:22:04.131-05:00  INFO 1052879 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:22:04.132-05:00  INFO 1052879 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T09:22:04.134-05:00  INFO 1052879 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-30T09:22:06.168-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1063397 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T09:22:06.173-05:00 DEBUG 1063397 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T09:22:06.174-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T09:22:07.167-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T09:22:07.243-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2025-01-30T09:22:08.005-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T09:22:08.024-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T09:22:08.025-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T09:22:08.087-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T09:22:08.088-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1819 ms
+2025-01-30T09:22:08.366-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T09:22:08.423-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T09:22:08.461-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T09:22:08.841-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T09:22:08.881-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T09:22:09.097-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T09:22:09.099-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T09:22:09.128-05:00  WARN 1063397 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T09:22:09.151-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -393,40 +970,40 @@ com.twilio.exception.ApiException: Mismatch between the 'From' number +187778042
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-21T15:35:11.315-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-21T15:35:11.374-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:35:11.878-05:00  WARN 1620678 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-21T15:35:12.069-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2025-01-21T15:35:12.537-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-01-21T15:35:12.687-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
-2025-01-21T15:35:12.703-05:00  INFO 1620678 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 5.145 seconds (process running for 5.555)
-2025-01-21T15:35:19.690-05:00  INFO 1620678 --- [seguimiento-pacientes] [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-21T15:35:19.691-05:00  INFO 1620678 --- [seguimiento-pacientes] [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-21T15:35:19.692-05:00  INFO 1620678 --- [seguimiento-pacientes] [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-01-21T15:37:13.503-05:00  INFO 1620678 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-21T15:37:13.506-05:00  INFO 1620678 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-01-21T15:37:13.509-05:00  INFO 1620678 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:37:13.511-05:00  INFO 1620678 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-01-21T15:37:13.513-05:00  INFO 1620678 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-01-21T15:37:15.125-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1621577 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
-2025-01-21T15:37:15.127-05:00 DEBUG 1621577 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
-2025-01-21T15:37:15.128-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-01-21T15:37:15.825-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-21T15:37:15.880-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
-2025-01-21T15:37:16.427-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
-2025-01-21T15:37:16.442-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-21T15:37:16.442-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-21T15:37:16.485-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-21T15:37:16.485-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1300 ms
-2025-01-21T15:37:16.684-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-21T15:37:16.736-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-21T15:37:16.769-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-21T15:37:17.011-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-21T15:37:17.031-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-21T15:37:17.165-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-01-21T15:37:17.167-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-21T15:37:17.186-05:00  WARN 1621577 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-21T15:37:17.202-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-30T09:22:10.134-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T09:22:10.194-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:22:10.645-05:00  WARN 1063397 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T09:22:10.832-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T09:22:11.315-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T09:22:11.459-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T09:22:11.480-05:00  INFO 1063397 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 6.114 seconds (process running for 6.564)
+2025-01-30T09:22:19.537-05:00  INFO 1063397 --- [seguimiento-pacientes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T09:22:19.538-05:00  INFO 1063397 --- [seguimiento-pacientes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T09:22:19.539-05:00  INFO 1063397 --- [seguimiento-pacientes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-30T09:23:59.666-05:00  INFO 1063397 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-30T09:23:59.669-05:00  INFO 1063397 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-30T09:23:59.672-05:00  INFO 1063397 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:23:59.673-05:00  INFO 1063397 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T09:23:59.676-05:00  INFO 1063397 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-30T09:24:01.467-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1064852 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T09:24:01.469-05:00 DEBUG 1064852 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T09:24:01.471-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T09:24:02.208-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T09:24:02.264-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2025-01-30T09:24:02.942-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T09:24:02.961-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T09:24:02.962-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T09:24:03.031-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T09:24:03.032-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1504 ms
+2025-01-30T09:24:03.276-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T09:24:03.349-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T09:24:03.389-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T09:24:03.727-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T09:24:03.758-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T09:24:03.959-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T09:24:03.962-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T09:24:03.988-05:00  WARN 1064852 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T09:24:04.011-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -434,13 +1011,54 @@ com.twilio.exception.ApiException: Mismatch between the 'From' number +187778042
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-21T15:37:17.874-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-21T15:37:17.924-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-21T15:37:18.291-05:00  WARN 1621577 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-21T15:37:18.415-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2025-01-21T15:37:18.758-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-01-21T15:37:18.838-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
-2025-01-21T15:37:18.848-05:00  INFO 1621577 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 4.265 seconds (process running for 4.661)
-2025-01-21T15:37:45.131-05:00  INFO 1621577 --- [seguimiento-pacientes] [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-21T15:37:45.132-05:00  INFO 1621577 --- [seguimiento-pacientes] [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-21T15:37:45.133-05:00  INFO 1621577 --- [seguimiento-pacientes] [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-30T09:24:04.914-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T09:24:04.971-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:24:05.429-05:00  WARN 1064852 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T09:24:05.601-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T09:24:06.087-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T09:24:06.215-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T09:24:06.231-05:00  INFO 1064852 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 5.398 seconds (process running for 5.794)
+2025-01-30T09:24:15.181-05:00  INFO 1064852 --- [seguimiento-pacientes] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T09:24:15.181-05:00  INFO 1064852 --- [seguimiento-pacientes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T09:24:15.182-05:00  INFO 1064852 --- [seguimiento-pacientes] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-01-30T09:27:30.073-05:00  INFO 1064852 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-30T09:27:30.075-05:00  INFO 1064852 --- [seguimiento-pacientes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-30T09:27:30.079-05:00  INFO 1064852 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:27:30.080-05:00  INFO 1064852 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T09:27:30.082-05:00  INFO 1064852 --- [seguimiento-pacientes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-30T09:27:31.997-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Starting SeguimientoPacientesApplication using Java 21.0.4 with PID 1067409 (/home/gjiroto/Documentos/seguimiento-pacientes/target/classes started by gjiroto in /home/gjiroto/Documentos/seguimiento-pacientes)
+2025-01-30T09:27:32.002-05:00 DEBUG 1067409 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-30T09:27:32.003-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T09:27:32.901-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T09:27:32.975-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2025-01-30T09:27:33.776-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-30T09:27:33.796-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-30T09:27:33.796-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-30T09:27:33.875-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-30T09:27:33.875-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1811 ms
+2025-01-30T09:27:34.114-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T09:27:34.172-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T09:27:34.209-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T09:27:34.552-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T09:27:34.581-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T09:27:34.778-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-01-30T09:27:34.781-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T09:27:34.808-05:00  WARN 1067409 --- [seguimiento-pacientes] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-30T09:27:34.830-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-30T09:27:35.662-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T09:27:35.720-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T09:27:36.221-05:00  WARN 1067409 --- [seguimiento-pacientes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T09:27:36.422-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-01-30T09:27:36.896-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-01-30T09:27:37.044-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-30T09:27:37.067-05:00  INFO 1067409 --- [seguimiento-pacientes] [main] c.h.s.SeguimientoPacientesApplication    : Started SeguimientoPacientesApplication in 5.782 seconds (process running for 6.232)
+2025-01-30T09:27:43.624-05:00  INFO 1067409 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-30T09:27:43.625-05:00  INFO 1067409 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-30T09:27:43.627-05:00  INFO 1067409 --- [seguimiento-pacientes] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

@@ -28,4 +28,45 @@ public class PacienteService {
     public List<Paciente> obtenerTodosLosPacientes() {
         return pacienteRepository.findAll();
     }
+
+    // Nuevo método: Eliminar paciente por ID
+    public void eliminarPacientePorId(Long pacienteId) {
+        if (!pacienteRepository.existsById(pacienteId)) {
+            throw new RuntimeException("No se puede eliminar. Paciente con ID " + pacienteId + " no encontrado");
+        }
+        pacienteRepository.deleteById(pacienteId);
+    }
+    
+    // Eliminar paciente por nombre
+    public void eliminarPacientePorNombre(String nombre) {
+        Paciente paciente = pacienteRepository.findByNombre(nombre)
+                .orElseThrow(() -> new RuntimeException("No se puede eliminar. Paciente con nombre " + nombre + " no encontrado"));
+        pacienteRepository.delete(paciente);
+    }
+
+        // Actualizar parcialmente un paciente
+        public Paciente actualizarPacienteParcial(Long pacienteId, Paciente datosActualizados) {
+            Paciente pacienteExistente = pacienteRepository.findById(pacienteId)
+                    .orElseThrow(() -> new RuntimeException("Paciente con ID " + pacienteId + " no encontrado"));
+            
+            // Actualizar solo los campos que no son nulos
+            if (datosActualizados.getNombre() != null) {
+                pacienteExistente.setNombre(datosActualizados.getNombre());
+            }
+            
+            if (datosActualizados.getDiagnostico() != null) {
+                pacienteExistente.setDiagnostico(datosActualizados.getDiagnostico());
+            }
+            
+            if (datosActualizados.getFechaNacimiento() != null) {
+                pacienteExistente.setFechaNacimiento(datosActualizados.getFechaNacimiento());
+            }
+            
+            if (datosActualizados.getTelefono() != null) {
+                pacienteExistente.setTelefono(datosActualizados.getTelefono());
+            }
+            
+            // Guardar y devolver el paciente actualizado
+            return pacienteRepository.save(pacienteExistente);
+        }
 }
